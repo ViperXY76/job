@@ -1,0 +1,25 @@
+Config = {}
+
+-- Turn this to false if you want everyone to use this.
+Config.OnlyPolicemen = true
+
+-- This is how much ammo you should get per weapon you take out.
+Config.ReceiveAmmo = 230
+
+-- You don't need to edit these if you don't want to.
+Config.Armory = { ["x"] = 1845.7631835938, ["y"] = 3692.5693359375, ["z"] = 34.267059326172, ["h"] = 130.0 } 
+Config.ArmoryPed = { ["x"] = 1844.3959960938, ["y"] = 3692.2084960938, ["z"] = 34.26707458496, ["h"] = 270.0, ["hash"] = "s_m_y_sheriff_01" }
+
+-- This is the available weapons you can pick out.
+Config.ArmoryWeapons = {
+	{ ["hash"] = "weapon_stungun", ["type"] = "pistol" },
+        { ["hash"] = "weapon_gazeuse", ["type"] = "pistol"},
+	{ ["hash"] = "weapon_bzgas", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_nightstick", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_flashlight", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_combatpistol", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_lbd", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_lbd2", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_lgcougar", ["type"] = "pistol" },
+	{ ["hash"] = "weapon_specialcarbine", ["type"] = "rifle" }
+}
